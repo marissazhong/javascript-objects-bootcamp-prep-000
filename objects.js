@@ -10,6 +10,10 @@ function updatePlaylist(playlist,artist,song) {
 }
 
 function removeFromPlaylist(playlist,artist) {
+<<<<<<< HEAD
   delete playlist[artist];
+=======
+  delete playlist.artist;
+>>>>>>> e4263d927e20784c8b0e8762b1c9fa9b3076c26e
   return playlist
 }
